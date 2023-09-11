@@ -27,7 +27,6 @@ document.addEventListener('DOMContentLoaded', function () {
         menu.classList.toggle('open');
     });
 
-    // Close the menu when a menu item is clicked
     const menuItems = document.querySelectorAll('.menu ul li a');
     menuItems.forEach((item) => {
         item.addEventListener('click', () => {
